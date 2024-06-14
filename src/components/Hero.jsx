@@ -19,7 +19,7 @@ const Hero = ({ darkMode }) => {
       name="home"
       className="w-full h-screen flex items-center justify-center"
     >
-      <div className={`"inner-div  w-full flex flex-col gap-3 items-center justify-center h-full bg-center bg-cover  " ${darkMode ? "bg-[url('./bg.gif')]" : "bg-[url('./home-bg.jpg')]"} `}>
+      <div className={`"inner-div  w-full flex flex-col gap-3 items-center justify-center h-full bg-center bg-cover  " ${darkMode ? "bg-[url('/bg.gif')]" : "bg-[url('/home-bg.jpg')]"} `}>
         <div className="heading pt-[25vw] md:pt-20 md:rotate-[-5deg]">
           <h1 className="font-kaushan capitalize text-[#EB5424] text-3xl md:text-4xl ">
             - shrikant uphade -
